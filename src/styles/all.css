@@ -1,0 +1,100 @@
+#EveryTweet-Shield {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 133, 199, 0.90);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5000;
+}
+
+.EveryTweet-Modal {
+  width: 500px;
+  height: 250px;
+  background-color: white;
+  box-shadow: rgb(36, 109, 154) 0px 10px 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -125px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #1da1f2;
+  padding: 15px;
+  padding-top: 35px;
+}
+
+.EveryTweet-Modal h1 {
+  font-size: 28px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: center;
+}
+
+.EveryTweet-Modal .EveryTweet-logo {
+  width: 24px;
+  vertical-align: top;
+}
+
+.EveryTweet-modal-inner {
+  margin-top: 65px;
+}
+
+.EveryTweet-modal-inner .EveryTweet-text {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: rgb(70,70,70);
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.EveryTweet-modal-inner .EveryTweet-button {
+  width: 125px;
+  height: 45px;
+  background-color: #1da1f2;
+  box-shadow: rgb(210, 210, 210) 0px 10px 15px;
+  color: white;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 45px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.EveryTweet-modal-inner .EveryTweet-button.EveryTweet-button-inline {
+  display: inline-block;
+  margin: 0 15px;
+  width: 175px;
+}
+
+.EveryTweet-modal-inner .EveryTweet-begin-text .EveryTweet-user-name {
+  color: #1da1f2;
+}
+
+.EveryTweet-modal-inner .EveryTweet-download-buttons-container {
+  text-align: center;
+}
+
+.EveryTweet-modal-inner .EveryTweet-progress-bar-outer {
+  width: 400px;
+  height: 30px;
+  margin: auto;
+  background-color: rgb(200,200,200);
+  position: relative;
+}
+
+.EveryTweet-modal-inner .EveryTweet-progress-bar-inner {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  width: 5%;
+  background-color: #1da1f2;
+}
+
+
