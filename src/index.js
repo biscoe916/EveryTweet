@@ -6,7 +6,7 @@ import Bot from './js/bot';
 
 
 
-$(document).ready(function() {
+$(document).ready(() => {
   var location = UrlParse(window.location.href, true);
   if (location.pathname === '/search' && location.query.EveryTweet) {
     var bot = new Bot({user: location.query.q.split('from:')[1], tweetCount: location.query.EveryTweetCount});
