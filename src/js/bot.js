@@ -49,7 +49,10 @@ export default class Bot {
     this._botInterval = setInterval(() => {
       window.scrollTo(0,document.body.scrollHeight);
       this.updateProgress();
-    }, 1000);
+      setTimeout(function() {
+        window.scrollTo(0,0);
+      }, 300);
+    }, 600);
     this._$haltButton.on('click', this.finished.bind(this));
   }
 
